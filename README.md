@@ -8,14 +8,14 @@ This CTF challenge is one of the basic challenges to start your pentesting caree
 
 Run nmap to enumerate all the ports and services running on the server:
 
-![GitHub Logo](/nmap.png)
+![GitHub Logo](/images/nmap.png)
 Format: ![Alt Text](url)
 
 ## Step 2:
 
 Run Dirtbuster using 'directory-list-1.0.txt' to enumerate all the directories on the vulnerable machine:
 
-![GitHub Logo](/dirbuster.png)
+![GitHub Logo](/images/dirbuster.png)
 Format: ![Alt Text](url)
 
 I noticed a (401 forbidden) status hinting a login page.
@@ -24,7 +24,7 @@ I noticed a (401 forbidden) status hinting a login page.
 Upon navigating to '/protected', it uses basic-http-authentication. 
 Run Hydra with wordlist(dictionary attack) and name('bob' as displayed in /guidelines) to authenticate:
 
-![GitHub Logo](/hydra.png)
+![GitHub Logo](/images/hydra.png)
 Format: ![Alt Text](url)
 
 [FLAGS]
